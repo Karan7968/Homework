@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.radius{
+    width: 20rem;
+    height: 20rem;
+    border: blue solid 5px;
+    border-radius:  3rem 4rem 9rem 5rem;
+    background-image: repeating-radial-gradient( green, blue 15%, red);
+}
+
+.radius2{
+    width: 20rem;
+    height: 20rem;
+    border: blue solid 5px;
+    border-radius:  3rem 4rem 9rem 5rem;
+    background-image: repeating-linear-gradient( to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.radius3{
+    width: 20rem;
+    height: 20rem;
+    border: blue solid 5px;
+    border-radius:  50%;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+

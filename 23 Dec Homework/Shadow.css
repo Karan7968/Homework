@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* h1{
+    text-shadow: 10px 10px 5px grey, 10px -10px 5px red;
+} */
+
+/* .transform{
+    width: 200px;
+    height: 150px;
+    background: red;
+    transform: rotate(90deg);
+}
+
+.transform2{
+    margin: 50px;
+    width: 200px;
+    height: 150px;
+    background: red;
+    transform: translate3d(2 4 6);
+} */
+
+.transform{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: blue;
+    color: pink;
+    transition: width 2s linear 2s;
+}
+
+button:hover{
+    width: 110px;
+    height: 55px;
+    background: yellow;
+    color: green;
+}
